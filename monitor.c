@@ -71,19 +71,7 @@ int main(int argc, char *argv[]){
             wait_pid = wait();
         }   
     }
-         
- 
-        /*while(1){
-            close(1);
-            dup(fds[1]);
-            close(fds[0]);
-            close(fds[1]);
-            read(0, input, SIZE_OF_FILE_NAME*NUMBER_OF_FILES);  
-            write(1,input,sizeof(input));           
-        }*/
-         
-     
-     
+    
     return 0;
      
 }
